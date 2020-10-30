@@ -1,0 +1,31 @@
+{
+  "name": "cy-google-search",
+  "version": "1.0.0",
+  "description": "Google Search with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run cypress:open",
+    "start": "npm run cypress:run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --record --key aa907bd2-e1a5-41c7-b312-4ce2b58b9478"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-rac2/cy-google-search.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Node",
+    "Cucumber",
+    "Node"
+  ],
+  "author": "Rodrigo Alves Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigo-rac2/cy-google-search/issues"
+  },
+  "homepage": "https://github.com/rodrigo-rac2/cy-google-search#readme",
+  "devDependencies": {
+    "cypress": "^5.5.0"
+  }
+}

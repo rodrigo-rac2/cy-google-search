@@ -1,0 +1,10 @@
+{
+  "projectId": "t9q92w",
+  "defaultCommandTimeout": 10000,
+  "chromeWebSecurity": false,
+  "ignoreTestFiles": "actionwords*",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/report-[hash].xml"
+  }
+}
