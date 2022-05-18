@@ -7,7 +7,7 @@
     "test": "npm run cypress:open",
     "start": "npm run cypress:run",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --record --key aa907bd2-e1a5-41c7-b312-4ce2b58b9478"
+    "cypress:run": "cypress run --record --key aa907bd2-e1a5-41c7-b312-4ce2b58b9478 --parallel"
   },
   "repository": {
     "type": "git",
