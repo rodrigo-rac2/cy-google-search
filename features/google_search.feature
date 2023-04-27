@@ -1,9 +1,18 @@
-Feature: Guest Login Scenarios
+  Funcionalidade: Google search
 
+  Background: Visitar o Google.com
+Dado eu visitei o Google.com
 
-  Scenario: Search for "Signal Wire"
+Cenario: Busca por "Signal Wire"
+Quando eu digito Signal Wire na caixa de texto de busca, e pressiono 'Enter'
+Então eu vejo "SignalWire" nos resultados da pesquisa
 
-  Scenario: Search for `Signal Wire` and press Search
+Cenario: Busca por `Signal Wire` e clica Search
+Quando eu digito Signal Wire na caixa de texto de busca
+E eu aperto no botão de buscar
+Então eu vejo "SignalWire" nos resultados da pesquisa
 
-  Scenario: Feeling lucky `Signal Wire`
-
+Cenario: Estou com sorte `Signal Wire`
+Quando eu digito Signal Wire na caixa de texto de busca
+E eu aperto no botão de estou com sorte
+Então eu vejo "SignalWire" nos resultados da pesquisa
