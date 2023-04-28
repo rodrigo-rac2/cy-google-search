@@ -10,7 +10,8 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
   schedule:
-    - cron: '20 17 * * *'
+    - cron: "0 18 * * *"
+
 
 jobs:
   build:
@@ -29,6 +30,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        ref: main
     - run: npm i
     - run: npm run build --if-present
     
@@ -48,5 +50,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        ref: main
     - run: npm i
     - run: npm test
