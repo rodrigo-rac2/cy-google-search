@@ -4,8 +4,8 @@
   "description": "Google Search with Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npm run cypress:run",
-    "start": "npm run cypress:open",
+    "test": "cypress run --browser=chrome --headless",
+    "start": "npm run cypress:run",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --record --key aa907bd2-e1a5-41c7-b312-4ce2b58b9478 --parallel"
   },
