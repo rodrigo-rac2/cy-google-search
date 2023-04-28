@@ -27,7 +27,7 @@ describe('Google search', () => {
             .should('contain', 'SignalWire')
     })
 
-    it.only('Estou com sorte `Signal Wire` (uid:bf35f14b-a7d4-461e-95ec-9d9f374c5c48)', () => {
+    it('Estou com sorte `Signal Wire` (uid:bf35f14b-a7d4-461e-95ec-9d9f374c5c48)', () => {
         cy.get('[name="q"]')
             .type('Signal Wire')
 
